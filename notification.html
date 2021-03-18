@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     <nav class="navbar">
         <h1 class="logo">Fisor</h1>
         <ul class="desktop-buttons">
@@ -34,41 +35,39 @@
     </nav>
 
     <h1 style="justify-content: center;
-    display: flex;">Settings</h1>
+    display: flex;">Notifications</h1>
+     
+     <div class="title-notification"><p>I want to receive</p></div>
+     <div class="notifications-container">
 
+        <div class="push-notification">
+            <p>Push notification</p>
 
-    <div class="title">
-        <p>Account settings</p>
-    </div>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+        </div>
 
-    <div class="notification-container1">
-        <div class="security">
-            <p>Security</p>
-            <a class="button-open1">❯</a>
-        </div>
-        <div class="notifications">
-            <p>Notification</p>
-            <a class="button-open2">❯</a>
-        </div>
-    </div>
+        <div class="reminder-notification">
+            <p>Reminder</p>
 
-    <div class="title">
-        <p>Support</p>
-    </div>
-    <div class="notification-container1">
-        <div class="security">
-            <p>About</p>
-            <a class="button-open1">❯</a>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
         </div>
-        <div class="notifications">
-            <p>Contact us</p>
-            <a class="button-open2">❯</a>
+
+        <div class="updates-notification">
+            <p>Updates</p>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
         </div>
-    </div>
-    <div class="btn-signout-container">
-        <button type="submit" class="btn-signout">Sign out</button>
-    </div>
-    
+
+     </div>
+
 </body>
 
 </html>
